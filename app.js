@@ -64,3 +64,19 @@ let pizza = 'tasty';
 pizza === 'tasty'? console.log('yum'): console.log('yuck');
 
 
+const localLangConfig = null;
+const LANG = localLangConfig || 'en';
+console.log('Language setting:', LANG);
+
+const userSavedTheme = null;
+const USER_THEME = userSavedTheme || 'light';
+console.log('User theme setting:', USER_THEME);
+
+//Exercise 11
+const adventurer = {
+    name: 'Alice',
+  };
+  
+  let cat; adventurer.cat?.name;
+  
+  console.log(cat);
