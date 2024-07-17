@@ -31,7 +31,7 @@ const multiply = nums.map((currentElement) => {
 //Exercise 5
 const car = {
     make: 'Audi',
-    model: 'q5',
+    model: 'q7',
   };
 
 const clonedCar = {...car};
@@ -77,6 +77,6 @@ const adventurer = {
     name: 'Alice',
   };
   
-  let cat; adventurer.cat?.name;
+  let cat = adventurer.cat?.name;
   
   console.log(cat);
